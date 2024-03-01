@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini Word</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="editor" contenteditable="true">
+        <p>Ceci est un paragraphe éditable. Modifiez-le comme bon vous semble.</p>
+    </div>
+
+    <label for="colorPicker">Couleur du texte :</label>
+    <input type="color" id="colorPicker" onchange="changeColor()">
+
+    <label for="fontSize">Taille du texte :</label>
+    <input type="number" id="fontSize" min="8" max="72" value="16" onchange="changeFontSize()">
+
+    <label for="fontFamily">Police du texte :</label>
+    <select id="fontFamily" onchange="changeFontFamily()">
+        <option value="Arial">Arial</option>
+        <option value="Times New Roman">Times New Roman</option>
+        <option value="Courier New">Courier New</option>
+        <option value="Brush Script MT">Brush Script MT</option>
+        <option value=" Comic Sans"> Comic Sans</option>
+        <option value=" Garamond"> Garamond</option>
+        <option value=" Georgia"> Georgia</option>
+        <option value="Helvetica">Helvetica</option>
+        <option value="Impact">Impact</option>
+        <option value="Lucida Console">Lucida Console</option>
+        <option value=" Tahoma"> Tahoma</option>
+        <option value="Palatino">Palatino</option>
+        <option value=" Verdana"> Verdana</option>
+        <option value="Trebuchet MS">Trebuchet MS</option>
+    </select>
+
+    <script src="script.js"></script>
+</body>
+</html>

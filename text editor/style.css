@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+#editor {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    min-height: 200px;
+    color: black;
+    font-size: 16px;
+}
+
+select, input {
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 14px;
+}

@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "todoliste",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "text editor"
+	}
+}
